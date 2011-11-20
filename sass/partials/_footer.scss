@@ -16,4 +16,5 @@ body > footer {
     @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);
   }
   p:last-child { margin-bottom: 0; }
+  box-shadow: inset 0px 0px 15px 5px darken($footer-bg, 20);
 }
